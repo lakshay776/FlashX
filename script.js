@@ -59,7 +59,7 @@ log_out.addEventListener('click',()=>{
 
 
 
-const BASE_URL="https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=931db298d52a40acaaee96cf9ab116a9"
+const BASE_URL="https://newsapi.org/v2/top-headlines?country=us&category=general&apiKey=newsapi"
 
 
 
@@ -148,7 +148,7 @@ console.log(preference_div);
   const news=async()=>{//the news function
     
 
-    const new_BASE_URL=`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=931db298d52a40acaaee96cf9ab116a9`;
+    const new_BASE_URL=`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=newsapi`;
 
 
    
